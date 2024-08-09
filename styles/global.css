@@ -1,34 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
-:root{
-    /* CORES */
-    --red:#E3646E;
-    --purple:#BB72E9;
-    --blue:#3996DB;
-    --green:#82BC4F;
-    --yellow:#EABD5F;
-    /* PRINCIPAL */
-    --gray-100:#0D0E11;
-    --gray-200:#16181D;
-    --gray-300:#292C34;
-    --gray-400:#878EA1;
-    --gray-500:#C0C4CE;
-    --gray-600:#E2E4E9;
-    /* FONTES */
-    --font-asap: "Asap", sans-serif;
-    --title-lg:700, 56px/120% var(--font-asap);
-    --title-lg:700, 24px/120% var(--font-asap);
-    --title-lg:700, 16px/120% var(--font-asap);
+:root {
+  /* CORES */
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  /* PRINCIPAL */
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+  /* FONTES */
+  --font-asap: "Asap", sans-serif;
+  --title-lg: 700 56px/120% var(--font-asap);
+  --title-md: 700 24px/120% var(--font-asap);
+  --title-sm: 700 16px/120% var(--font-asap);
 
-    --font-incon: "Inconsolata", monospace;
-    --sub:400, 20px/120% var(--font-incon);
+  --font-incon: "Inconsolata", monospace;
+  --sub: 400 20px/120% var(--font-incon);
 
-    --font-maven: "Maven Pro", sans-serif;
-    --text-md:400, 16px/140% var(--font-maven);
-    --text-sm:400 14px/140% var(--font-maven);
+  --font-maven: "Maven Pro", sans-serif;
+  --text-md: 400 16px/140% var(--font-maven);
+  --text-sm: 400 14px/140% var(--font-maven);
+}
 
+body {
+  background-color: var(--gray-100);
+}
 
+/* TIPOGRAFIA */
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+h2 {
+  font: var(--title-md);
+}
+h3 {
+  font: var(--title-sm);
+}
+h4 {
+  span {
+    color: var(--red);
+  }
+  font: var(--sub);
+  color: var(--gray-500);
+}
+span{
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+header {
+  max-width: 100%;
+  height: 750px;
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
 }
