@@ -68,3 +68,21 @@ header {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover;
 }
+.icone-1{
+  filter: brightness(0) saturate(100%) invert(92%) sepia(7%) saturate(274%) hue-rotate(185deg) brightness(84%) contrast(95%);
+}
+.icone-2{
+  filter: brightness(0) saturate(100%) invert(50%) sepia(42%) saturate(1564%) hue-rotate(316deg) brightness(93%) contrast(90%);
+}
+.icone-3{
+  filter: brightness(0) saturate(100%) invert(58%) sepia(32%) saturate(3531%) hue-rotate(180deg) brightness(92%) contrast(86%);
+}
+.icone-4{
+  filter: brightness(0) saturate(100%) invert(95%) sepia(13%) saturate(3550%) hue-rotate(317deg) brightness(109%) contrast(84%);
+}
+.icone-5{
+  filter: brightness(0) saturate(100%) invert(50%) sepia(46%) saturate(686%) hue-rotate(163deg) brightness(96%) contrast(94%);
+}
+.icone-6{
+  filter: brightness(0) saturate(100%) invert(69%) sepia(51%) saturate(443%) hue-rotate(49deg) brightness(89%) contrast(88%);
+}
