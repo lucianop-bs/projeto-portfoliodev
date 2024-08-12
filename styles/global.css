@@ -41,9 +41,11 @@ h1 {
 }
 h2 {
   font: var(--title-md);
+  color: var(--gray-600);
 }
 h3 {
   font: var(--title-sm);
+  color: var(--gray-600);
 }
 h4 {
   span {
