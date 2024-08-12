@@ -1,0 +1,12 @@
+.pad{
+    padding-top:88px ;
+}
+.tam{
+    width: 48px;
+    height: 48px;
+    margin:20px 212px 20px 20px;
+}
+
+.tam:nth-child(1){
+    border:none;
+}
