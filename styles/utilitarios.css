@@ -10,3 +10,12 @@
 .tam:nth-child(1){
     border:none;
 }
+.rosa{
+  color:var(--purple);
+}
+.pad-128{
+    padding-top: 128px;
+}
+.pad-8{
+    padding-top: 8px;
+}
