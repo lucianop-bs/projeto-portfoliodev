@@ -1,21 +1,35 @@
-.pad{
-    padding-top:88px ;
+.pad {
+  padding-top: 88px;
 }
-.tam{
-    width: 48px;
-    height: 48px;
-    margin:20px 212px 20px 20px;
+.tam {
+  width: 48px;
+  height: 48px;
+  margin: 20px 212px 20px 20px;
 }
 
-.tam:nth-child(1){
-    border:none;
+.tam:nth-child(1) {
+  border: none;
 }
-.rosa{
-  color:var(--purple);
+.rosa {
+  color: var(--purple);
 }
-.pad-128{
-    padding-top: 128px;
+.pad-128 {
+  padding-top: 128px;
 }
-.pad-8{
-    padding-top: 8px;
+.pad-8 {
+  padding-top: 8px;
+}
+
+.img-1 {
+  max-width: 28px;
+  max-height: 28px;
+  object-fit: contain;
+  padding: 20px 12px 20px 20px;
+  margin: 0px;
+}
+.img-2 {
+  max-width: 20px;
+  max-height: 20px;
+  object-fit: contain;
+  padding:24px 20px 24px 12px;
 }
